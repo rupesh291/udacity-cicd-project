@@ -1,6 +1,9 @@
   Project URLs
-  1. Public Url to GitHub repository (not private) [URL01] https://github.com/rupesh291/udacity-cicd-project/
-  2. Public URL for your S3 Bucket (aka, your green candidate front-end) [URL02]
+  1. Public Url to GitHub repository (not private) 
+  [URL01] https://github.com/rupesh291/udacity-cicd-project/
+  2. Public URL for your S3 Bucket (aka, your green candidate front-end) 
+  [URL02] -> http://udapeople-0667d1f.s3-website.us-east-1.amazonaws.com/#/employees 
+  (Need to be updated as per latest run)
   3. Public URL for your CloudFront distribution (aka, your blue production front-end) [URL03]
   4. Public URLs to deployed application back-end in EC2 [URL04]
   5. Public URL to your Prometheus Server [URL05]
