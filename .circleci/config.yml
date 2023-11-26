@@ -89,10 +89,87 @@ jobs:
           paths:
             - package.json
             - backend.tar.gz
+  
+  test-frontend:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      # Checkout code from git
+      - checkout
+      # Restore from cache
+      - restore_cache:
+          key: frontend-build
+      # Your job code here
+      - run:
+          name: test frontend
+          command: |
+            # Your code here
+            cd frontend
+            npm run test
+  test-backend:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      # Checkout code from git
+      - checkout
+      # Restore from cache
+      - restore_cache:
+          keys: [backend-build]
+      # Your job code here
+      - run:
+          name: test backend
+          command: |
+            # Your code here
+            cd backend
+            npm i
+            npm run test
+  scan-frontend:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      # Checkout code from git
+      - checkout
+      # Restore from cache
+      - restore_cache:
+          key: frontend-build
+      # Your job code here
+      - run:
+          name: scan frontend vulnerability
+          command: |
+            # Your code here
+            cd frontend
+            npm i
+            npm audit fix --audit-level=critical 
 
+  scan-backend:
+    docker:
+      # Docker image here
+      - image: circleci/node:13.8.0
+    steps:
+      # Checkout code from git
+      - checkout
+      # Restore from cache
+      - restore_cache:
+          key: backend-build
+      # Your job code here
+      - run:
+          name: scan backend vulnerability
+          command: |
+            # Your code here
+            cd backend
+            npm i
+            npm audit fix --audit-level=critical 
+  
 workflows:
   default:
     jobs:
       - build-frontend
       - build-backend
- 
+      - test-frontend:
+          requires: [build-frontend]
+      - test-backend:
+          requires: [build-backend]
+      - scan-backend:
+          requires: [build-backend]
+      - scan-frontend:
+          requires: [build-frontend] 
