@@ -33,10 +33,11 @@ For your submission, please submit the following:
   1. Public URLs to deployed application back-end in EC2 [URL04]
   1. Public URL to your Prometheus Server [URL05]
 - Your screenshots in JPG or PNG format, named using the screenshot number listed in the instructions. These screenshots should be included in your code repository in the root folder.
-  1. Job failed because of compile errors. (Screenshot01 Bankend build failed 2023-11-26.png)
-  1. Job failed because of unit tests. [SCREENSHOT02] (Screenshot02 Test backend failure 2023-11-26 191512.png)
-  1. Job that failed because of vulnerable packages. [SCREENSHOT03] (Screenshot03 Scan backend failure 2023-11-26 191512.png)
-  1. An alert from one of your failed builds. [SCREENSHOT04]
+  1. Job failed because of compile errors. 
+  ![SCREENSHOT01](Screenshot01 Bankend build failed 2023-11-26.png)
+  1. Job failed because of unit tests. ![SCREENSHOT02](Screenshot02 Test backend failure 2023-11-26 191512.png)
+  1. Job that failed because of vulnerable packages. ![SCREENSHOT03](Screenshot03 Scan backend failure 2023-11-26 191512.png)
+  1. An alert from one of your failed builds. ![SCREENSHOT04](Screenshot04 Email Alert 2023-11-26 191512.png)
   1. Appropriate job failure for infrastructure creation. [SCREENSHOT05]
   1. Appropriate job failure for the smoke test job. [SCREENSHOT06]
   1. Successful rollback after a failed smoke test. [SCREENSHOT07]  
