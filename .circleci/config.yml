@@ -158,9 +158,8 @@ jobs:
             # Your code here
             cd backend
             npm i
-            npm audit --audit-level=critical
-#           npm audit fix --audit-level=critical 
-  
+#           npm audit --audit-level=critical
+            npm audit fix --audit-level=critical   
 workflows:
   default:
     jobs:
