@@ -265,6 +265,6 @@ workflows:
           filters:
             branches:
               #only: [test-feature-branch]
-              only: [main]
+              only: [master]
       - configure-infrastructure:
           requires: [deploy-infrastructure]
