@@ -57,11 +57,11 @@ For your submission, please submit the following:
 </li>
  <li>
   <h4>Appropriate job failure for the smoke test job. [SCREENSHOT06] </h4>
-  <img src="./Screenshots/Screenshot06 Destory infra at failure 2023-11-26 191512.PNG">
+  <img src="./Screenshots/Screenshot07 Smok test failure.PNG">
 </li>
  <li>
   <h4>Successful rollback after a failed smoke test. [SCREENSHOT07] </h4>
-  <img src="./Screenshots/Screenshot04 Email Alert 2023-11-26 191512.PNG">
+  <img src="./Screenshots/Screenshot08 Rollback on failure.PNG">
 </li>
  <li>
   <h4>Successful promotion job. [SCREENSHOT08] </h4>
