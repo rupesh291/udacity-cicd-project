@@ -64,8 +64,8 @@ For your submission, please submit the following:
   <img src="./Screenshots/Screenshot08 Rollback on failure.PNG">
 </li>
  <li>
-  <h4>Successful promotion job. [SCREENSHOT08] </h4>
-  <img src="./Screenshots/Screenshot04 Email Alert 2023-11-26 191512.PNG">
+  <h4>Successful Cloudfront promotion job. [SCREENSHOT08] </h4>
+  <img src="./Screenshots/Screenshot09 CloudFront distribution.PNG">
 </li>
  <li>
   <h4>Successful cleanup job. [SCREENSHOT09] </h4>
