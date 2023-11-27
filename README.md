@@ -32,21 +32,58 @@ For your submission, please submit the following:
   1. Public URL for your CloudFront distribution (aka, your blue production front-end) [URL03]
   1. Public URLs to deployed application back-end in EC2 [URL04]
   1. Public URL to your Prometheus Server [URL05]
-- Your screenshots in JPG or PNG format, named using the screenshot number listed in the instructions. These screenshots should be included in your code repository in the root folder.
-  1. Job failed because of compile errors. 
-  ![SCREENSHOT01](./ScreenShots/Screenshot01 Bankend build failed 2023-11-26.png)
-  1. Job failed because of unit tests. ![SCREENSHOT02](./ScreenShots/Screenshot02 Test backend failure 2023-11-26 191512.png)
-  1. Job that failed because of vulnerable packages. ![SCREENSHOT03](./ScreenShots/Screenshot03 Scan backend failure 2023-11-26 191512.png)
-  1. An alert from one of your failed builds. ![SCREENSHOT04](./ScreenShots/Screenshot04 Email Alert 2023-11-26 191512.png)
-  1. Appropriate job failure for infrastructure creation. [SCREENSHOT05]
-  1. Appropriate job failure for the smoke test job. [SCREENSHOT06]
-  1. Successful rollback after a failed smoke test. [SCREENSHOT07]  
-  1. Successful promotion job. [SCREENSHOT08]
-  1. Successful cleanup job. [SCREENSHOT09]
-  1. Only deploy on pushed to `master` branch. [SCREENSHOT10]
-  1. Provide a screenshot of a graph of your EC2 instance including available memory, available disk space, and CPU usage. [SCREENSHOT11]
-  1. Provide a screenshot of an alert that was sent by Prometheus. [SCREENSHOT12]
 
+<h2 href="#Screenshots">Screenshots</h2>
+<ol>
+<li>
+  <h4>Backend build failed. SCREENSHOT01 </h4>
+  <img src="./ScreenShots/Screenshot01 Bankend build failed 2023-11-26.PNG">
+</li>
+ <li>
+  <h4>Backend build failure. SCREENSHOT02 </h4>
+  <img src="./Screenshots/Screenshot02 Test backend failure 2023-11-26 191512.PNG">
+</li>
+ <li>
+  <h4>Job that failed because of vulnerable packages. SCREENSHOT03 </h4>
+  <img src="./Screenshots/Screenshot03 Scan backend failure 2023-11-26 191512.PNG">
+</li>
+ <li>
+  <h4>An alert from one of your failed builds. SCREENSHOT04 </h4>
+  <img src="./Screenshots/Screenshot04 Email Alert 2023-11-26 191512.PNG">
+</li>
+ <li>
+  <h4>Appropriate job failure for infrastructure creation. [SCREENSHOT05] </h4>
+  <img src="./Screenshots/Screenshot05 Ec2 AMI failure 2023-11-26 191512.PNG">
+</li>
+ <li>
+  <h4>Appropriate job failure for the smoke test job. [SCREENSHOT06] </h4>
+  <img src="./Screenshots/Screenshot06 Destory infra at failure 2023-11-26 191512.PNG">
+</li>
+ <li>
+  <h4>Successful rollback after a failed smoke test. [SCREENSHOT07] </h4>
+  <img src="./Screenshots/Screenshot04 Email Alert 2023-11-26 191512.PNG">
+</li>
+ <li>
+  <h4>Successful promotion job. [SCREENSHOT08] </h4>
+  <img src="./Screenshots/Screenshot04 Email Alert 2023-11-26 191512.PNG">
+</li>
+ <li>
+  <h4>Successful cleanup job. [SCREENSHOT09] </h4>
+  <img src="./Screenshots/Screenshot04 Email Alert 2023-11-26 191512.PNG">
+</li>
+ <li>
+  <h4>Only deploy on pushed to `master` branch. [SCREENSHOT10] </h4>
+  <img src="./Screenshots/Screenshot04 Email Alert 2023-11-26 191512.PNG">
+</li>
+ <li>
+  <h4>Provide a screenshot of a graph of your EC2 instance including available memory, available disk space, and CPU usage. [SCREENSHOT11] </h4>
+  <img src="./Screenshots/Screenshot04 Email Alert 2023-11-26 191512.PNG">
+</li>
+ <li>
+  <h4>Provide a screenshot of an alert that was sent by Prometheus. [SCREENSHOT12] </h4>
+  <img src="./Screenshots/Screenshot04 Email Alert 2023-11-26 191512.PNG">
+</li>
+  
 - Your presentation should be in PDF format named "presentation.pdf" and should be included in your code repository root folder. 
 
 Before you submit your project, please check your work against the project rubric. If you haven’t satisfied each criterion in the rubric, then revise your work so that you have met all the requirements. 
