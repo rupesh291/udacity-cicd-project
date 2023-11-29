@@ -34,7 +34,7 @@ pipeline.png
 <ol>
 <li>
   <h4>Diagram of CI/CD Pipeline I have build. </h4>
-  <img src="./ScreenShots/Screenshot01 Bankend build failed 2023-11-26.PNG">
+  <img src="./ScreenShots/Screenshot01 Bankend build failed 2023-11-26.png">
 </li>
 </ol>
 
@@ -57,44 +57,44 @@ pipeline.png
 <ol>
 <li>
   <h4>Backend build failed. SCREENSHOT01 </h4>
-  <img src="./ScreenShots/Screenshot01_Bankend_build_failed.PNG">
+  <img src="./ScreenShots/Screenshot01_Bankend_build_failed.png">
 </li>
  <li>
   <h4>Backend build failure. SCREENSHOT02 </h4>
-  <img src="./Screenshots/Screenshot02_Test_backend_failure.PNG">
+  <img src="./Screenshots/Screenshot02_Test_backend_failure.png">
 </li>
  <li>
   <h4>Job that failed because of vulnerable packages. SCREENSHOT03 </h4>
-  <img src="./Screenshots/Screenshot03_Scan_backend_failure.PNG">
+  <img src="./Screenshots/Screenshot03_Scan_backend_failure.png">
 </li>
  <li>
   <h4>An alert from one of your failed builds. SCREENSHOT04 </h4>
-  <img src="./Screenshots/Screenshot04EmailAlert.PNG">
+  <img src="./Screenshots/Screenshot04EmailAlert.png">
 </li>
  <li>
   <h4>Appropriate job failure for infrastructure creation. [SCREENSHOT05] </h4>
-  <img src="./Screenshots/Screenshot05Ec2AMIfailure.PNG">
+  <img src="./Screenshots/Screenshot05Ec2AMIfailure.png">
 </li>
  <li>
   <h4>Appropriate job failure for the smoke test job. [SCREENSHOT06] </h4>
-  <img src="./Screenshots/Screenshot06Destoryinfraatfailure.PNG">
-  <img src="./Screenshots/Screenshot07Smoktestfailure.PNG">
+  <img src="./Screenshots/Screenshot06Destoryinfraatfailure.png">
+  <img src="./Screenshots/Screenshot07Smoktestfailure.png">
 </li>
  <li>
   <h4>Successful rollback after a failed smoke test. [SCREENSHOT07] </h4>
-  <img src="./Screenshots/Screenshot08Rollbackonfailure.PNG">
+  <img src="./Screenshots/Screenshot08Rollbackonfailure.png">
 </li>
  <li>
   <h4>Successful Cloudfront promotion job. [SCREENSHOT08] </h4>
-  <img src="./Screenshots/Screenshot09CloudFrontdistribution.PNG">
+  <img src="./Screenshots/Screenshot09CloudFrontdistribution.png">
 </li>
  <li>
   <h4>Successful cleanup job. [SCREENSHOT09] </h4>
-  <img src="./Screenshots/Screenshot10Cleanup.PNG">
+  <img src="./Screenshots/Screenshot10Cleanup.png">
 </li>
  <li>
   <h4>Only deploy on pushed to `master` branch. [SCREENSHOT10] </h4>
-  <img src="./Screenshots/Screenshot11Masterbranch.PNG">
+  <img src="./Screenshots/Screenshot11Masterbranch.png">
 </li>
 </ol> 
 
@@ -102,7 +102,7 @@ pipeline.png
  <ol> 
  <li>
   <h4>Provide a screenshot of a graph of your EC2 instance including available memory, available disk space, and CPU usage. [SCREENSHOT11] </h4>
-  <img src="./Screenshots/Screenshot12MemFree.PNG">
+  <img src="./Screenshots/Screenshot12MemFree.png">
   <h4>Update Screen Shot Provide a screenshot of a graph of your EC2 instance including available memory, available disk space, and CPU usage. [SCREENSHOT11] </h4>
   <img src="./Screenshots/Screenshot121MemFree.png">
   
@@ -111,7 +111,7 @@ pipeline.png
   <h4>Provide a screenshot of an alert that was sent by Prometheus. [SCREENSHOT12] </h4>
   <img src="./Screenshots/Screenshot13Alerts.png">
     <h4>Provide a screenshot of monitored EC2 instances.  [URL05_SCREENSHOT] </h4>
-  <img src="./Screenshots/Screenshot122Target Servers.PNG">
+  <img src="./Screenshots/Screenshot122Target Servers.png">
 </li>
 </ol>  
 
