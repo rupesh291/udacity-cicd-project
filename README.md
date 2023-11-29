@@ -37,20 +37,13 @@ Overall, CI/CD helps developers to focus more on writing code and delivering val
 
 
 ### Project URLs :
-  1. Public Url to GitHub repository (not private) 
-  [URL01] https://github.com/rupesh291/udacity-cicd-project/
-  2. Public URL for your S3 Bucket (aka, your green candidate front-end) 
-  [URL02] http://udapeople-7bbfc43.s3-website.us-east-1.amazonaws.com/#/employees
-  3. Public URL for your CloudFront distribution (aka, your blue production front-end) 
-  [URL03] https://d2gaubmerxan3c.cloudfront.net/#/employees
-  4. Public URLs to deployed application back-end in EC2 
-  [URL04] http://52.91.129.133:3030/api/status (backend ec2 update with every deployment, I am going to run the git commit)
-  5. Public URL to your Prometheus Server 
-  [URL05]  http://ec2-184-72-158-251.compute-1.amazonaws.com:9090/targets
-  MemFree Stats: http://ec2-184-72-158-251.compute-1.amazonaws.com:9090/graph?g0.range_input=1h&g0.expr=node_memory_MemFree_bytes&g0.tab=0
-  Alert URL: http://ec2-184-72-158-251.compute-1.amazonaws.com:9093/#/alerts
- 
-
+- [Public Url to GitHub repository (not private)](https://github.com/rupesh291/udacity-cicd-project/) - Public Url to GitHub repository (not private)
+- [ Public URL for your S3 Bucket (aka, your green candidate](http://udapeople-7bbfc43.s3-website.us-east-1.amazonaws.com/#/employees) - Public URL for your S3 Bucket (aka, your green candidate front-end) 
+- [Public URL for your CloudFront distribution (aka, your blue production front-end)](https://d2gaubmerxan3c.cloudfront.net/#/employees) - Public URL for your CloudFront distribution (aka, your blue production front-end)
+- [backend ec2 update with every deployment, I am going to run the git commit](http://52.91.129.133:3030/api/status) - backend ec2 update with every deployment, I am going to run the git commit 
+- [Prometheus MemFree Stats](http://ec2-184-72-158-251.compute-1.amazonaws.com:9090/targets) - Prometheus MemFree Stats
+- [Prometheus Alert Manager](http://ec2-184-72-158-251.compute-1.amazonaws.com:9093/#/alerts) - Prometheus Alert Manager
+  
 <h3 href="#Screenshots">Project Screenshots</h3>
 <ol>
 <li>
@@ -59,40 +52,40 @@ Overall, CI/CD helps developers to focus more on writing code and delivering val
 </li>
  <li>
   <h4>Backend build failure. SCREENSHOT02 </h4>
-  <img src="./Screenshots/Screenshot02_Test_backend_failure.png">
+  <img src="./ScreenShots/Screenshot02_Test_backend_failure.png">
 </li>
  <li>
   <h4>Job that failed because of vulnerable packages. SCREENSHOT03 </h4>
-  <img src="./Screenshots/Screenshot03_Scan_backend_failure.png">
+  <img src="./ScreenShots/Screenshot03_Scan_backend_failure.png">
 </li>
  <li>
   <h4>An alert from one of your failed builds. SCREENSHOT04 </h4>
-  <img src="./Screenshots/Screenshot04EmailAlert.png">
+  <img src="./ScreenShots/Screenshot04EmailAlert.png">
 </li>
  <li>
   <h4>Appropriate job failure for infrastructure creation. [SCREENSHOT05] </h4>
-  <img src="./Screenshots/Screenshot05Ec2AMIfailure.png">
+  <img src="./ScreenShots/Screenshot05Ec2AMIfailure.png">
 </li>
  <li>
   <h4>Appropriate job failure for the smoke test job. [SCREENSHOT06] </h4>
-  <img src="./Screenshots/Screenshot06Destoryinfraatfailure.png">
-  <img src="./Screenshots/Screenshot07Smoktestfailure.png">
+  <img src="./ScreenShots/Screenshot06Destoryinfraatfailure.png">
+  <img src="./ScreenShots/Screenshot07Smoktestfailure.png">
 </li>
  <li>
   <h4>Successful rollback after a failed smoke test. [SCREENSHOT07] </h4>
-  <img src="./Screenshots/Screenshot08Rollbackonfailure.png">
+  <img src="./ScreenShots/Screenshot08Rollbackonfailure.png">
 </li>
  <li>
   <h4>Successful Cloudfront promotion job. [SCREENSHOT08] </h4>
-  <img src="./Screenshots/Screenshot09CloudFrontdistribution.png">
+  <img src="./ScreenShots/Screenshot09CloudFrontdistribution.png">
 </li>
  <li>
   <h4>Successful cleanup job. [SCREENSHOT09] </h4>
-  <img src="./Screenshots/Screenshot10Cleanup.png">
+  <img src="./ScreenShots/Screenshot10Cleanup.png">
 </li>
  <li>
   <h4>Only deploy on pushed to `master` branch. [SCREENSHOT10] </h4>
-  <img src="./Screenshots/Screenshot11Masterbranch.png">
+  <img src="./ScreenShots/Screenshot11Masterbranch.png">
 </li>
 </ol> 
 
@@ -100,16 +93,15 @@ Overall, CI/CD helps developers to focus more on writing code and delivering val
  <ol> 
  <li>
   <h4>Provide a screenshot of a graph of your EC2 instance including available memory, available disk space, and CPU usage. [SCREENSHOT11] </h4>
-  <img src="./Screenshots/Screenshot12MemFree.png">
+  <img src="./ScreenShots/Screenshot121MemFree.png">
   <h4>Update Screen Shot Provide a screenshot of a graph of your EC2 instance including available memory, available disk space, and CPU usage. [SCREENSHOT11] </h4>
-  <img src="./ScreenShots/Screenshot12MemFree.png">
-  
+  <img src="./ScreenShots/Screenshot12MemFree.png"> 
 </li>
  <li>
   <h4>Provide a screenshot of an alert that was sent by Prometheus. [SCREENSHOT12] </h4>
   <img src="./ScreenShots/Screenshot13Alerts.png">
     <h4>Provide a screenshot of monitored EC2 instances.  [URL05_SCREENSHOT] </h4>
-  <img src="./Screenshots/Screenshot122TargetServers.png">
+  <img src="./ScreenShots/Screenshot122TargetServers.png">
 </li>
 </ol>  
 
