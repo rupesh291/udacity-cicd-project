@@ -41,7 +41,8 @@ Overall, CI/CD helps developers to focus more on writing code and delivering val
 - [ Public URL for your S3 Bucket (aka, your green candidate](http://udapeople-7bbfc43.s3-website.us-east-1.amazonaws.com/#/employees) - Public URL for your S3 Bucket (aka, your green candidate front-end) 
 - [Public URL for your CloudFront distribution (aka, your blue production front-end)](https://d2gaubmerxan3c.cloudfront.net/#/employees) - Public URL for your CloudFront distribution (aka, your blue production front-end)
 - [backend ec2 update with every deployment, I am going to run the git commit](http://52.91.129.133:3030/api/status) - backend ec2 update with every deployment, I am going to run the git commit 
-- [Prometheus MemFree Stats](http://ec2-184-72-158-251.compute-1.amazonaws.com:9090/targets) - Prometheus MemFree Stats
+- [Prometheus EC2 status](http://ec2-184-72-158-251.compute-1.amazonaws.com:9090/targets) - Prometheus EC2 status
+- [Prometheus MemFree Stats](http://ec2-184-72-158-251.compute-1.amazonaws.com:9090/graph?g0.range_input=1h&g0.moment_input=2023-11-29%2003%3A21%3A35&g0.expr=node_memory_MemFree_bytes&g0.tab=0) - Prometheus MemFree Stats
 - [Prometheus Alert Manager](http://ec2-184-72-158-251.compute-1.amazonaws.com:9093/#/alerts) - Prometheus Alert Manager
   
 <h3 href="#Screenshots">Project Screenshots</h3>
