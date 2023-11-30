@@ -90,6 +90,8 @@ Overall, CI/CD helps developers to focus more on writing code and delivering val
  <li>
   <h4>Only deploy on pushed to `master` branch. [SCREENSHOT10] </h4>
   <img src="./ScreenShots/Screenshot11Masterbranch.png">
+  <h4>Updated after review, Only deploy on pushed to `master` branch. [SCREENSHOT10] </h4>
+  <img src="./ScreenShots/Screenshot11Devbranch.png">
 </li>
 </ol> 
 
