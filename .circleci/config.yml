@@ -59,10 +59,10 @@ commands:
           command: |
             SUCCESS=$(curl --insecure  https://kvdb.io/${KVDB_BUCKET_ID}/migration_<< parameters.WorkflowID >>)
             echo $SUCCESS
-            if [ $SUCCESS -eq 1 ]
+            if [[ $SUCCESS -eq 1 ]];
             then
               cd ~/project/backend
-              npm Install
+              npm install
               npm run migrations:revert
             fi         
 
