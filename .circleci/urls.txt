@@ -2,12 +2,12 @@
   1. Public Url to GitHub repository (not private) 
   [URL01] https://github.com/rupesh291/udacity-cicd-project/
   2. Public URL for your S3 Bucket (aka, your green candidate front-end) 
-  [URL02] http://udapeople-7bbfc43.s3-website.us-east-1.amazonaws.com/#/employees
+ Updated [URL02] http://udapeople-c7e1804.s3-website.us-east-1.amazonaws.com/#/employees
   3. Public URL for your CloudFront distribution (aka, your blue production front-end) 
   [URL03] https://d2gaubmerxan3c.cloudfront.net/#/employees
   4. Public URLs to deployed application back-end in EC2 
   [URL04] http://52.91.129.133:3030/api/status (backend ec2 update with every deployment, I am going to run the git commit)
   5. Public URL to your Prometheus Server 
-  [URL05]  http://ec2-184-72-158-251.compute-1.amazonaws.com:9090/targets
-  MemFree Stats: http://ec2-184-72-158-251.compute-1.amazonaws.com:9090/graph?g0.range_input=1h&g0.expr=node_memory_MemFree_bytes&g0.tab=0
-  Alert URL: http://ec2-184-72-158-251.compute-1.amazonaws.com:9093/#/alerts
+  Updated [URL05]  http://ec2-3-89-162-56.compute-1.amazonaws.com:9090/targets
+  Updated MemFree Stats: http://ec2-3-89-162-56.compute-1.amazonaws.com:9090/graph?g0.range_input=1h&g0.expr=node_memory_MemFree_bytes&g0.tab=0
+  Updated Alert URL: http://ec2-3-89-162-56.compute-1.amazonaws.com:9093/#/alerts
