@@ -75,6 +75,7 @@ Overall, CI/CD helps developers to focus more on writing code and delivering val
  <li>
   <h4>Successful rollback after a failed smoke test. [SCREENSHOT07] </h4>
   <img src="./ScreenShots/Screenshot08Rollbackonfailure.png">
+  database details added.
 </li>
  <li>
   <h4>Successful Cloudfront promotion job. [SCREENSHOT08] </h4>
