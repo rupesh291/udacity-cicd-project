@@ -292,12 +292,12 @@ jobs:
           name: Send migration results to kvdb.io
           command: |
             cat ~/project/backend/migrations_dump.txt
-            if grep -q "has been executed successfully." ~/project/backend/migrations_dump.txt
-            then
+            #if grep -q "has been executed successfully." ~/project/backend/migrations_dump.txt
+            #then
               curl https://kvdb.io/${KVDB_BUCKET_ID}/migration_${CIRCLE_WORKFLOW_ID:0:7}  -d '1'
-            else
+            #else
               echo "No migrations are pending"
-            fi
+            #fi
       - destroy-environment
       - revert-migrations
   deploy-frontend:
