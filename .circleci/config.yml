@@ -36,7 +36,7 @@ commands:
           name: Revert migrations
           when: on_fail
           command: |
-            SUCCESS=$(curl --insecure  https://kvdb.io/${KVDB_BUCKET_ID}/migration_<< parameters.WorkflowID >>)
+            SUCCESS=$(curl --insecure  https://kvdb.io/${KVDB_BUCKET_ID}/old-workflow-id)
             echo $SUCCESS
             if(( $SUCCESS==1 ));
             then
@@ -455,9 +455,9 @@ jobs:
             else
               return 1
             fi
-      # Here's where you will add some code to rollback on failure  
-      - revert-migrations
+      # Here's where you will add some code to rollback on failure        
       - destroy-environment
+      - revert-migrations
   
   cloudfront-update:
     docker:
