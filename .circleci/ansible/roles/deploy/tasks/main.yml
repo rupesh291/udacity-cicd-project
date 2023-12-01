@@ -20,7 +20,7 @@
 
 - name: "NPM Install"
   shell:
-    cmd: npm install --production --legacy-peer-deps
+    cmd: npm install --production
     chdir: /home/ubuntu/app
 
 - name: "Start backend with pm2"
