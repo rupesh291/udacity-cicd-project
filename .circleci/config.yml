@@ -231,6 +231,7 @@ jobs:
       - destroy-environment   
 
   configure-infrastructure:
+    resource_class: medium+
     docker:
       # Docker image here that supports Ansible
       - image: python:3.7-alpine3.11
