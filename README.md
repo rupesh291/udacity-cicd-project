@@ -33,7 +33,7 @@ Overall, CI/CD helps developers to focus more on writing code and delivering val
 ### Section 2: Deploying Working, Trustworthy Software
 <h3 href="#Screenshots">Screenshots</h3>
 <h4>Diagram of CI/CD Pipeline I have build. </h4>
-<img src="./ScreenShots/pipeline.png.png">
+<img src="./ScreenShots/pipeline.png">
 
 
 ### Project URLs :
@@ -75,6 +75,8 @@ Overall, CI/CD helps developers to focus more on writing code and delivering val
  <li>
   <h4>Successful rollback after a failed smoke test. [SCREENSHOT07] </h4>
   <img src="./ScreenShots/Screenshot08Rollbackonfailure.png">
+  <h4>Updated after review, Successful rollback after a failed smoke test. [SCREENSHOT07] </h4>
+  <img src="./ScreenShots/Screenshot08Rollbackonfailure_afterfix.png">
   database details added.
 </li>
  <li>
@@ -88,6 +90,8 @@ Overall, CI/CD helps developers to focus more on writing code and delivering val
  <li>
   <h4>Only deploy on pushed to `master` branch. [SCREENSHOT10] </h4>
   <img src="./ScreenShots/Screenshot11Masterbranch.png">
+  <h4>Updated after review, Only deploy on pushed to `master` branch. [SCREENSHOT10] </h4>
+  <img src="./ScreenShots/Screenshot11Devbranch.png">
 </li>
 </ol> 
 
