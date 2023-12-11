@@ -1,4 +1,3 @@
-
 ## Give your Application Auto-Deploy Superpowers
 (udapeople.png)
 
@@ -52,6 +51,8 @@
  <li>
   <h4>Successful rollback after a failed smoke test. [SCREENSHOT07] </h4>
   <img src="./ScreenShots/Screenshot08Rollbackonfailure.png">
+  <h4>Updated after review, Successful rollback after a failed smoke test. [SCREENSHOT07] </h4>
+  <img src="./ScreenShots/Screenshot08Rollbackonfailure_afterfix.png">
   database details added.
 </li>
  <li>
@@ -65,6 +66,8 @@
  <li>
   <h4>Only deploy on pushed to `master` branch. [SCREENSHOT10] </h4>
   <img src="./ScreenShots/Screenshot11Masterbranch.png">
+  <h4>Updated after review, Only deploy on pushed to `master` branch. [SCREENSHOT10] </h4>
+  <img src="./ScreenShots/Screenshot11Devbranch.png">
 </li>
 </ol> 
 
