@@ -66,7 +66,7 @@
   <img src="./ScreenShots/Screenshot11Masterbranch.png">
   <h4>Updated after review, Only deploy on pushed to `master` branch. [SCREENSHOT10] </h4>
   <img src="./ScreenShots/Screenshot11Devbranch.png">
-  <h3>Note: after taking the screen shot I am using DEV branch to activate the CICD pipe line, so that I can update readme in master branch without triggering the CICD pipeline </h3>
+  <h3>Note: after taking above screenshot, I am using DEV branch to activate the CICD pipe line, so that I can update readme in master branch without triggering the CICD pipeline </h3>
 </li>
 </ol> 
 
@@ -74,13 +74,12 @@
  <ol> 
  <li>
   <h4>Provide a screenshot of a graph of your EC2 instance including available memory, available disk space, and CPU usage. [SCREENSHOT11] </h4>
-  <img src="./ScreenShots/Screenshot121MemFree.png">
-  <h4>Update Screen Shot Provide a screenshot of a graph of your EC2 instance including available memory, available disk space, and CPU usage. [SCREENSHOT11] </h4>
-  <img src="./ScreenShots/Screenshot12MemFree.png"> 
-</li>
+  
+  
  <li>
   <h4>Provide a screenshot of monitored EC2 instances.  [URL05_SCREENSHOT] </h4>
   <img src="./ScreenShots/Screenshot122TargetServers.png">
+  <h5>Note: present EC2 servers will be different to provided screenshots due to deployments. [URL05_SCREENSHOT] </h5>
 
   <h4>Provide a screenshot of Backend EC2 Server  [URL05_SCREENSHOT] </h4>
   <img src="./ScreenShots/BackendEC2.png">
