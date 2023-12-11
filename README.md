@@ -1,48 +1,26 @@
 ## Give your Application Auto-Deploy Superpowers
+(udapeople.png)
+
 
 ### Section 1: Selling CI/CD to your Team/Organization
 
-Benefits of CI/CD to achieve, build, and deploy automation
+- [UdaPeople CICD Proposal for business](https://github.com/rupesh291/udacity-cicd-project/blob/master/ScreenShots/UdacityCICDproposal.pdf) - URL to UdaPeople CICD Proposal for business.
+(https://github.com/rupesh291/udacity-cicd-project/blob/master/ScreenShots/UdacityCICDproposal.pdf)
 
-### Speedy Golive from Development to Producton: 
-CI/CD enables developers to release new features and updates more frequently. By automating the build and deployment processes, developers can quickly deliver changes to production, reducing the time it takes to bring new features to end-users.
-
-### Early Bug Detection by automated testing: 
-With CI/CD, code changes are continuously integrated and tested.
-By catching and addressing issues early on, developers can prevent them from becoming larger and more difficult to fix later.
-
-### Production Level Quality from the begening : 
-CI/CD encourages developers to write clean, modular, and testable code.  
-This leads to improved code quality and reduces the golive time in Production.
-
-### Scale-Up and Scale-down
-In case increase or decressed usage, CI/CD automated enable us to Scale-up and down quickly with no downtime.
-
-### Disaster Recovery and Rollback
-In case of any issues or failures during deployment, CI/CD automated recovery, minimizing downtime and reducing the impact on end-users.
-
-Overall, CI/CD helps developers to focus more on writing code and delivering value to end-users fast with quality and scalabilty.
-
-![Diagram of CI/CD Pipeline we will be building.](udapeople.png)
-
-
-
-
+<h3>Diagram of Proposed CI/CD Pipeline </h3>
+<img src="./ScreenShots/pipeline.png">
 
 ### Section 2: Deploying Working, Trustworthy Software
 <h3 href="#Screenshots">Screenshots</h3>
-<h4>Diagram of CI/CD Pipeline I have build. </h4>
-<img src="./ScreenShots/pipeline.png">
 
 
 ### Project URLs :
 - [Public Url to GitHub repository (not private)](https://github.com/rupesh291/udacity-cicd-project/) - Public Url to GitHub repository (not private)
-- [ Public URL for your S3 Bucket (aka, your green candidate](http://udapeople-c7e1804.s3-website.us-east-1.amazonaws.com/#/employees) - Public URL for your S3 Bucket (aka, your green candidate front-end) 
-- [Public URL for your CloudFront distribution (aka, your blue production front-end)](https://d2gaubmerxan3c.cloudfront.net/#/employees) - Public URL for your CloudFront distribution (aka, your blue production front-end)
-- [backend ec2 update with every deployment, I am going to run the git commit](http://52.91.129.133:3030/api/status) - backend ec2 update with every deployment, I am going to run the git commit 
-- [Prometheus EC2 status](http://ec2-184-72-158-251.compute-1.amazonaws.com:9090/targets) - Prometheus EC2 status
-- [Prometheus MemFree Stats](http://ec2-184-72-158-251.compute-1.amazonaws.com:9090/graph?g0.range_input=1h&g0.moment_input=2023-11-29%2003%3A21%3A35&g0.expr=node_memory_MemFree_bytes&g0.tab=0) - Prometheus MemFree Stats
-- [Prometheus Alert Manager](http://ec2-184-72-158-251.compute-1.amazonaws.com:9093/#/alerts) - Prometheus Alert Manager
+- [ Public URL for your S3 Bucket (aka, your green candidate](http://udapeople-6a42cce.s3-website.us-east-1.amazonaws.com/#/employees) - Public URL for your S3 Bucket (aka, your green candidate front-end) 
+- [Public URL for your CloudFront distribution (aka, your blue production front-end)](http://d2gaubmerxan3c.cloudfront.net/#/employees) - Public URL for your CloudFront distribution (aka, your blue production front-end)
+- [backend ec2 update with every deployment, I am going to run the git commit](http://54.175.47.107:3030/api/status) 
+- [Prometheus EC2 status](http://ec2-54-167-29-21.compute-1.amazonaws.com:9090/targets) - Prometheus EC2 status
+- [Prometheus Alert Manager](http://ec2-54-167-29-21.compute-1.amazonaws.com:9093/#/alerts) - Prometheus Alert Manager
   
 <h3 href="#Screenshots">Project Screenshots</h3>
 <ol>
@@ -91,6 +69,7 @@ Overall, CI/CD helps developers to focus more on writing code and delivering val
   <img src="./ScreenShots/Screenshot11Masterbranch.png">
   <h4>Updated after review, Only deploy on pushed to `master` branch. [SCREENSHOT10] </h4>
   <img src="./ScreenShots/Screenshot11Devbranch.png">
+  <h3>Note: after taking the screen shot I am using DEV branch to activate the CICD pipe line, so that I can update readme in master branch without triggering the CICD pipeline </h3>
 </li>
 </ol> 
 
