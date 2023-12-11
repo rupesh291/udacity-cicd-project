@@ -4,7 +4,8 @@
 
 ### Section 1: Selling CI/CD to your Team/Organization
 
-- [UdaPeople CICD Proposal for business](https://github.com/rupesh291/udacity-cicd-project/ScreenShots/UdacityCICDproposal.pdf) - URL to UdaPeople CICD Proposal for business.
+- [UdaPeople CICD Proposal for business](https://github.com/rupesh291/udacity-cicd-project/blob/master/ScreenShots/UdacityCICDproposal.pdf) - URL to UdaPeople CICD Proposal for business.
+(https://github.com/rupesh291/udacity-cicd-project/blob/master/ScreenShots/UdacityCICDproposal.pdf)
 
 <h3>Diagram of Proposed CI/CD Pipeline </h3>
 <img src="./ScreenShots/pipeline.png">
