@@ -9,7 +9,6 @@
 <img src="./ScreenShots/pipeline.png">
 
 ### Section 2: Deploying Working, Trustworthy Software
-<h3 href="#Screenshots">Screenshots</h3>
 
 
 ### Project URLs :
