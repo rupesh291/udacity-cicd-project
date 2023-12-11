@@ -69,6 +69,7 @@
   <img src="./ScreenShots/Screenshot11Masterbranch.png">
   <h4>Updated after review, Only deploy on pushed to `master` branch. [SCREENSHOT10] </h4>
   <img src="./ScreenShots/Screenshot11Devbranch.png">
+  <h3>Note: after taking the screen shot I am using DEV branch to activate the CICD pipe line, so that I can update readme in master branch without triggering the CICD pipeline </h3>
 </li>
 </ol> 
 
