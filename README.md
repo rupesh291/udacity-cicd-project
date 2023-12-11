@@ -1,7 +1,5 @@
 ## Give your Application Auto-Deploy Superpowers
-(udapeople.png)
-
-
+<img src="udapeople.png">
 ### Section 1: Selling CI/CD to your Team/Organization
 
 - [UdaPeople CICD Proposal for business](https://github.com/rupesh291/udacity-cicd-project/blob/master/ScreenShots/UdacityCICDproposal.pdf) - URL to UdaPeople CICD Proposal for business.
@@ -101,10 +99,6 @@
   <img src="./ScreenShots/slack_notification.png">
 </li>
 </ol>  
-
-- Your presentation should be in PDF format named "presentation.pdf" and should be included in your code repository root folder. 
-
-Before you submit your project, please check your work against the project rubric. If you haven’t satisfied each criterion in the rubric, then revise your work so that you have met all the requirements. 
 
 ### Tooling
 - [Circle CI](www.circleci.com) - Cloud-based CI/CD service
