@@ -82,10 +82,23 @@
   <img src="./ScreenShots/Screenshot12MemFree.png"> 
 </li>
  <li>
-  <h4>Provide a screenshot of an alert that was sent by Prometheus. [SCREENSHOT12] </h4>
-  <img src="./ScreenShots/Screenshot13Alerts.png">
-    <h4>Provide a screenshot of monitored EC2 instances.  [URL05_SCREENSHOT] </h4>
+  <h4>Provide a screenshot of monitored EC2 instances.  [URL05_SCREENSHOT] </h4>
   <img src="./ScreenShots/Screenshot122TargetServers.png">
+
+  <h4>Provide a screenshot of Backend EC2 Server  [URL05_SCREENSHOT] </h4>
+  <img src="./ScreenShots/BackendEC2.png">
+   <h4>Current backend EC2 instance is different compate to provided screen shot due to multiple releases </h4>
+    <h4>Provide a screenshot of monitored FreeMemory.  [URL05_SCREENSHOT] </h4>
+  <img src="./ScreenShots/BackendEC2MemFree.png">
+    <h4>Provide a screenshot of monitored CPU Usage.  [URL05_SCREENSHOT] </h4>
+  <img src="./ScreenShots/BackendEC2CPU.png">
+    <h4>Provide a screenshot of monitored Disk Usage.  [URL05_SCREENSHOT] </h4>
+  <img src="./ScreenShots/BackendEC2DiskIO.png">
+
+  <h4>Provide a screenshot of an alert that was sent by Prometheus. [SCREENSHOT12] </h4>
+  <img src="./ScreenShots/Alertmanager.png">
+  <h4>Provide a screenshot of an alert that was sent by Prometheus on Slack. [SCREENSHOT12] </h4>
+  <img src="./ScreenShots/slack_notification.png">
 </li>
 </ol>  
 
