@@ -1,4 +1,3 @@
-
 ## Give your Application Auto-Deploy Superpowers
 
 ### Section 1: Selling CI/CD to your Team/Organization
