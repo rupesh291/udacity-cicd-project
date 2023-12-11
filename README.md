@@ -83,7 +83,7 @@
 
   <h4>Provide a screenshot of Backend EC2 Server  [URL05_SCREENSHOT] </h4>
   <img src="./ScreenShots/BackendEC2.png">
-   <h4>Current backend EC2 instance is different compate to provided screen shot due to multiple releases </h4>
+   <h5>Note: present EC2 servers will be different to provided screenshots due to deployments. [URL05_SCREENSHOT] </h5>
     <h4>Provide a screenshot of monitored FreeMemory.  [URL05_SCREENSHOT] </h4>
   <img src="./ScreenShots/BackendEC2MemFree.png">
     <h4>Provide a screenshot of monitored CPU Usage.  [URL05_SCREENSHOT] </h4>
