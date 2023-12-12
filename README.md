@@ -69,12 +69,12 @@
   <h3>Note: after taking above screenshot, I am using DEV branch to activate the CICD pipe line, so that I can update readme in master branch without triggering the CICD pipeline </h3>
 </li>
  <li>
-  <h4>Successfuly employee added with CloudFormation URL. [SCREENSHOT11] </h4>
+  <h4>Successfully New Employee added with CloudFront distribution URL. [SCREENSHOT11] </h4>
   <img src="./ScreenShots/CloudFront.png">
 </li>
 
  <li>
-  <h4>Successfuly employee added with S3 URL. [SCREENSHOT12] </h4>
+  <h4>Successfully New employee added with S3 URL. [SCREENSHOT12] </h4>
   <img src="./ScreenShots/S3URL.png">
 </li>
 
