@@ -27,8 +27,7 @@
   become: yes
   shell: |
     cd /home/ubuntu/app
-##  pm2 start main.js --name app
-    pm2 start npm -f ./main.js -- run start
+    pm2 start main.js --name app
   environment:
     ENVIRONMENT: production
     TYPEORM_CONNECTION: "{{ lookup('env', 'TYPEORM_CONNECTION') }}"
