@@ -13,9 +13,9 @@
 
 ### Project URLs :
 - [Public Url to GitHub repository (not private)](https://github.com/rupesh291/udacity-cicd-project/) - Public Url to GitHub repository (not private)
-- [ Public URL for your S3 Bucket (aka, your green candidate](http://udapeople-6a42cce.s3-website.us-east-1.amazonaws.com/#/employees) - Public URL for your S3 Bucket (aka, your green candidate front-end) 
+- [ Public URL for your S3 Bucket (aka, your green candidate](http://udapeople-651457f.s3-website.us-east-1.amazonaws.com/#/employees) - Public URL for your S3 Bucket (aka, your green candidate front-end) 
 - [Public URL for your CloudFront distribution (aka, your blue production front-end)](http://d2gaubmerxan3c.cloudfront.net/#/employees) - Public URL for your CloudFront distribution (aka, your blue production front-end)
-- [backend ec2 update with every deployment, I am going to run the git commit](http://54.175.47.107:3030/api/status) 
+- [backend ec2 update with every deployment, I am going to run the git commit](http://54.208.3.153:3030/api/status) 
 - [Prometheus EC2 status](http://ec2-54-167-29-21.compute-1.amazonaws.com:9090/targets) - Prometheus EC2 status
 - [Prometheus Alert Manager](http://ec2-54-167-29-21.compute-1.amazonaws.com:9093/#/alerts) - Prometheus Alert Manager
   
