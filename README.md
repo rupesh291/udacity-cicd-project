@@ -1,5 +1,6 @@
 ## Give your Application Auto-Deploy Superpowers
 <img src="udapeople.png">
+
 ### Section 1: Selling CI/CD to your Team/Organization
 
 - [UdaPeople CICD Proposal for business](https://github.com/rupesh291/udacity-cicd-project/blob/master/ScreenShots/UdacityCICDproposal.pdf) - URL to UdaPeople CICD Proposal for business.
@@ -12,12 +13,12 @@
 
 
 ### Project URLs :
-- [Public Url to GitHub repository (not private)](https://github.com/rupesh291/udacity-cicd-project/) - Public Url to GitHub repository (not private)
+- [Public Url to GitHub repository (not private)](https://github.com/rupesh291/udacity-cicd-project/tree/dev) - Public Url to GitHub repository (Dev Branch is my main branch for CI-Circle)
 - [ Public URL for your S3 Bucket (aka, your green candidate](http://udapeople-651457f.s3-website.us-east-1.amazonaws.com/#/employees) - Public URL for your S3 Bucket (aka, your green candidate front-end) 
-- [Public URL for your CloudFront distribution (aka, your blue production front-end)](http://d2gaubmerxan3c.cloudfront.net/#/employees) - Public URL for your CloudFront distribution (aka, your blue production front-end)
-- [backend ec2 update with every deployment, I am going to run the git commit](http://54.208.3.153:3030/api/status) 
-- [Prometheus EC2 status](http://ec2-54-167-29-21.compute-1.amazonaws.com:9090/targets) - Prometheus EC2 status
-- [Prometheus Alert Manager](http://ec2-54-167-29-21.compute-1.amazonaws.com:9093/#/alerts) - Prometheus Alert Manager
+- [Public URL for your CloudFront distribution (aka, your blue production front-end)](http://d2gaubmerxan3c.cloudfront.net/#/employees) - Public URL for your CloudFront distribution (Try in Edge browser if any cache issue)
+- [backend ec2 update with every deployment](http://54.208.3.153:3030/api/status) -Backend public IP address is subject to be updated.
+- [Prometheus EC2 status](http://3.229.184.223:9090/targets) - Prometheus EC2 Servers (Public domain keep changing, hence using elastic ip) 
+- [Prometheus Alert Manager](http://3.229.184.223:9093/#/alerts) - Prometheus Alert Manager (Public domain keep changing, hence using elastic ip)
   
 <h3 href="#Screenshots">Project Screenshots</h3>
 <ol>
@@ -43,7 +44,6 @@
 </li>
  <li>
   <h4>Appropriate job failure for the smoke test job. [SCREENSHOT06] </h4>
-  <img src="./ScreenShots/Screenshot06Destoryinfraatfailure.png">
   <img src="./ScreenShots/Screenshot07Smoktestfailure.png">
 </li>
  <li>
