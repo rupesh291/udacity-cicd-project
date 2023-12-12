@@ -14,9 +14,9 @@
 
 ### Project URLs :
 - [Public Url to GitHub repository (not private)](https://github.com/rupesh291/udacity-cicd-project/tree/dev) - Public Url to GitHub repository (Dev Branch is my main branch for CI-Circle)
-- [ Public URL for your S3 Bucket (aka, your green candidate](http://udapeople-651457f.s3-website.us-east-1.amazonaws.com/#/employees) - Public URL for your S3 Bucket (aka, your green candidate front-end) 
+- [ Public URL for your S3 Bucket (aka, your green candidate](http://udapeople-f6aaa28.s3-website.us-east-1.amazonaws.com/#/employees) - Public URL for your S3 Bucket (aka, your green candidate front-end) 
 - [Public URL for your CloudFront distribution (aka, your blue production front-end)](http://d2gaubmerxan3c.cloudfront.net/#/employees) - Public URL for your CloudFront distribution (Try in Edge browser if any cache issue)
-- [backend ec2 update with every deployment](http://54.208.3.153:3030/api/status) -Backend public IP address is subject to be updated.
+- [backend ec2 update with every deployment](http://44.207.59.205:3030/api/status) -Backend public IP address is subject to be updated. I have attached Elastic IP but still it update with every deployment.
 - [Prometheus EC2 status](http://3.229.184.223:9090/targets) - Prometheus EC2 Servers (Public domain keep changing, hence using elastic ip) 
 - [Prometheus Alert Manager](http://3.229.184.223:9093/#/alerts) - Prometheus Alert Manager (Public domain keep changing, hence using elastic ip)
   
@@ -67,6 +67,21 @@
   <h4>Updated after review, Only deploy on pushed to `master` branch. [SCREENSHOT10] </h4>
   <img src="./ScreenShots/Screenshot11Devbranch.png">
   <h3>Note: after taking above screenshot, I am using DEV branch to activate the CICD pipe line, so that I can update readme in master branch without triggering the CICD pipeline </h3>
+</li>
+ <li>
+  <h4>Successfuly employee added with CloudFormation URL. [SCREENSHOT11] </h4>
+  <img src="./ScreenShots/CloudFront.png">
+</li>
+
+ <li>
+  <h4>Successfuly employee added with S3 URL. [SCREENSHOT12] </h4>
+  <img src="./ScreenShots/S3URL.png">
+</li>
+
+ <li>
+  <h4> BackEnd Api status and employee response [SCREENSHOT13] </h4>
+  <img src="./ScreenShots/BackendURL1.png">
+    <img src="./ScreenShots/BackendURL2.png">
 </li>
 </ol> 
 
